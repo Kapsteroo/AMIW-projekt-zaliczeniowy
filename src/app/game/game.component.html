@@ -1,0 +1,103 @@
+<div class="absolute">
+<h3>
+<mat-form-field>
+    <mat-label>Wybierz poziom trudności</mat-label>
+    <mat-select [(value)]="level">
+      <mat-option>Nie wybrano</mat-option>
+      <mat-option value = 1>Poziom 1</mat-option>
+      <mat-option value = 2>Poziom 2</mat-option>
+      <mat-option value = 3>Poziom 3</mat-option>
+      <mat-option value = 4>Poziom 4</mat-option>
+      <mat-option value = 5>Poziom 5</mat-option>
+      <mat-option value = 6>Poziom 6</mat-option>
+      <mat-option value = 7>Poziom 7</mat-option>
+      <mat-option value = 8>Poziom 8</mat-option>
+      <mat-option value = 9>Poziom 9</mat-option>
+      <mat-option value = 10>Poziom 10</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+</h3>
+
+
+  <button class="button" mat-button (click)="onClickMe()">Start!</button>
+
+</div>
+
+<h4>
+  <div class="square">
+    {{wantedNumbers[0]}}
+    </div>
+    
+  <div class="square">
+    {{wantedNumbers[1]}}
+    </div>
+
+  <div class="square">
+    {{wantedNumbers[2]}}
+   </div>
+
+  <div class="square">
+    {{wantedNumbers[3]}}
+   </div>
+      
+  <div class="square">
+    {{wantedNumbers[4]}}
+   </div>
+      
+  <div class="square">
+    {{wantedNumbers[5]}}
+   </div>
+
+  <div class="square">
+    {{wantedNumbers[6]}}
+    </div>
+
+  <div class="square">
+    {{wantedNumbers[7]}}
+   </div>
+
+  <div class="square">
+    {{wantedNumbers[8]}}
+   </div>
+      
+  <div class="square">
+    {{wantedNumbers[9]}}
+   </div>
+      
+  <div>
+    <p>Masz {{counter}} sekund</p>
+  </div>
+
+  </h4>
+
+  <h5>
+  <p>Wpisz liczby:  </p>
+
+  
+  <form>
+  <input class="square1" name ="enteredNumbers[0]" type=number [(ngModel)]="enteredNumbers[0]">
+  <input class="square1" name ="enteredNumbers[1]" type=number [(ngModel)]="enteredNumbers[1]">
+  <input class="square1" name ="enteredNumbers[2]" type=number [(ngModel)]="enteredNumbers[2]">
+  <input class="square1" name ="enteredNumbers[3]" type=number [(ngModel)]="enteredNumbers[3]">
+  <input class="square1" name ="enteredNumbers[4]" type=number [(ngModel)]="enteredNumbers[4]">
+  <input class="square1" name ="enteredNumbers[5]" type=number [(ngModel)]="enteredNumbers[5]">
+  <input class="square1" name ="enteredNumbers[6]" type=number [(ngModel)]="enteredNumbers[6]">
+  <input class="square1" name ="enteredNumbers[7]" type=number [(ngModel)]="enteredNumbers[7]">
+  <input class="square1" name ="enteredNumbers[8]" type=number [(ngModel)]="enteredNumbers[8]">
+  <input class="square1" name ="enteredNumbers[9]" type=number [(ngModel)]="enteredNumbers[9]">
+
+  <br>
+  <button class="button" type="submit" mat-button (click)="onClickResult()">Sprawdz!</button>
+  </form>
+</h5>
+
+
+<div>
+  <h1>
+  <p>{{result}}</p>
+  </h1>
+</div>
+
+<router-outlet></router-outlet>
+

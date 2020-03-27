@@ -1,0 +1,82 @@
+.example-form {
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 60px;
+    max-width: 60px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+    border: solid 3px #ccc;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin-inline-start: 20px;
+    background-color:cadetblue ;
+    color:black;
+   }
+
+   .timer {
+    width: 70px;
+    height: 50px;
+    border: solid 3px #ccc;
+    text-align: center;
+    font-size: 40px;
+    margin-inline-start: 20px;
+    background-color:cadetblue ;
+    color:black;
+   }
+
+   .square1 {
+    width: 50px;
+    height: 50px;
+    border: solid 3px #ccc;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin-inline-start: 20px;
+    background-color: cadetblue; ;
+   }
+
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+   }
+   
+   div.absolute{
+     position: absolute;
+     top: 55px;
+     left: 50px;
+   }
+
+   h4 {
+    position: absolute;
+    top:220px;
+    left:70px;
+   }
+
+   h5 {
+    position: absolute;
+    top:320px;
+    left:70px;
+   }
+
+  .button {
+    background-color: #4CAF50;
+    position: absolute;
+    top:130px;
+  }
+
+   h1 {
+    position: absolute;
+    top:490px;
+    left:70px;
+   }

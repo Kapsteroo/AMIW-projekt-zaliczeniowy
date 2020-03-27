@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { color: white; margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-image: url(./assets/images/Slide_Nyan_Cat.gif);background-repeat: no-repeat; background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */}
